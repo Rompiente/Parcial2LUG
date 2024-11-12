@@ -77,7 +77,7 @@ namespace BLL
             }
         }
 
-        public void Update(int idEstudiante, string nombre, decimal promedio, string curso)
+        public void Update(int idEstudiante, string nombre, decimal promedio, Curso curso)
         {
             try
             {
@@ -87,6 +87,8 @@ namespace BLL
                     if (estudiante == null) throw new Exception("Estudiante no encontrado");
                     estudiante.Nombre = nombre;
                     estudiante.Promedio = promedio;
+                    if (estudiante.Promedio < 0) throw new Exception("El promedio no puede ser menor que 0");
+                    if (estudiante.Promedio > 10) throw new Exception("El promedio no puede ser mayor que 10");
                     estudiante.Curso = curso;
                     estudianteDAO.Update(estudiante);
                     trx.Complete();

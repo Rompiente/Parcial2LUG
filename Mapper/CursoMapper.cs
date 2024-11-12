@@ -17,6 +17,7 @@ namespace Mapper
             curso.NombreCurso = reader.GetString(1);
             curso.Profesor = reader.GetString(2);
             curso.Horario = reader.GetString(3);
+
             return curso;
         }
     }

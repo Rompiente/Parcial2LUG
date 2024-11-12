@@ -18,7 +18,7 @@ namespace Entity
         public string Nombre { get => nombre; set => nombre = value; }
         public DateTime FechaNacimiento { get => fechaNacimiento; set => fechaNacimiento = value; }
         public string NombreCurso { get => Curso.NombreCurso; }
-        public Curso Curso { get => curso; set => curso = value; }
+        public Curso Curso { get; set; }
         public decimal Promedio { get => promedio; set => promedio = value; }
 
         public int Edad

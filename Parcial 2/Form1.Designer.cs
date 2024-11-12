@@ -28,14 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             dataGridView1 = new DataGridView();
             txtNombre = new TextBox();
             label1 = new Label();
             label2 = new Label();
-            txtFechaNac = new TextBox();
             txtPromedio = new TextBox();
             label3 = new Label();
             cmbCurso = new ComboBox();
+            cursoBusinessBindingSource1 = new BindingSource(components);
+            cursoBindingSource = new BindingSource(components);
+            cursoBusinessBindingSource = new BindingSource(components);
             label4 = new Label();
             btnCargarUno = new Button();
             btnAgregar = new Button();
@@ -53,7 +56,11 @@
             label10 = new Label();
             txtEliminar = new TextBox();
             btnEliminar = new Button();
+            dtpFechaNac = new DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)cursoBusinessBindingSource1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)cursoBindingSource).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)cursoBusinessBindingSource).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
@@ -89,13 +96,6 @@
             label2.TabIndex = 3;
             label2.Text = "Fecha de Nacimiento";
             // 
-            // txtFechaNac
-            // 
-            txtFechaNac.Location = new Point(28, 133);
-            txtFechaNac.Name = "txtFechaNac";
-            txtFechaNac.Size = new Size(100, 23);
-            txtFechaNac.TabIndex = 4;
-            // 
             // txtPromedio
             // 
             txtPromedio.Location = new Point(28, 191);
@@ -117,8 +117,20 @@
             cmbCurso.FormattingEnabled = true;
             cmbCurso.Location = new Point(28, 260);
             cmbCurso.Name = "cmbCurso";
-            cmbCurso.Size = new Size(121, 23);
+            cmbCurso.Size = new Size(159, 23);
             cmbCurso.TabIndex = 7;
+            // 
+            // cursoBusinessBindingSource1
+            // 
+            cursoBusinessBindingSource1.DataSource = typeof(BLL.CursoBusiness);
+            // 
+            // cursoBindingSource
+            // 
+            cursoBindingSource.DataSource = typeof(Entity.Curso);
+            // 
+            // cursoBusinessBindingSource
+            // 
+            cursoBusinessBindingSource.DataSource = typeof(BLL.CursoBusiness);
             // 
             // label4
             // 
@@ -146,6 +158,7 @@
             btnAgregar.TabIndex = 10;
             btnAgregar.Text = "Agregar a la lista";
             btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // btnConfirmar
             // 
@@ -155,6 +168,7 @@
             btnConfirmar.TabIndex = 11;
             btnConfirmar.Text = "Confirmar cambios";
             btnConfirmar.UseVisualStyleBackColor = true;
+            btnConfirmar.Click += btnConfirmar_Click;
             // 
             // label5
             // 
@@ -189,6 +203,7 @@
             btnModificar.TabIndex = 15;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnModificar_Click;
             // 
             // txtNuevoNombre
             // 
@@ -263,12 +278,21 @@
             btnEliminar.TabIndex = 24;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
+            // 
+            // dtpFechaNac
+            // 
+            dtpFechaNac.Location = new Point(28, 135);
+            dtpFechaNac.Name = "dtpFechaNac";
+            dtpFechaNac.Size = new Size(159, 23);
+            dtpFechaNac.TabIndex = 25;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 524);
+            Controls.Add(dtpFechaNac);
             Controls.Add(btnEliminar);
             Controls.Add(txtEliminar);
             Controls.Add(label10);
@@ -289,7 +313,6 @@
             Controls.Add(cmbCurso);
             Controls.Add(label3);
             Controls.Add(txtPromedio);
-            Controls.Add(txtFechaNac);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(txtNombre);
@@ -297,6 +320,9 @@
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)cursoBusinessBindingSource1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)cursoBindingSource).EndInit();
+            ((System.ComponentModel.ISupportInitialize)cursoBusinessBindingSource).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -307,7 +333,6 @@
         private TextBox txtNombre;
         private Label label1;
         private Label label2;
-        private TextBox txtFechaNac;
         private TextBox txtPromedio;
         private Label label3;
         private ComboBox cmbCurso;
@@ -328,5 +353,9 @@
         private Label label10;
         private TextBox txtEliminar;
         private Button btnEliminar;
+        private DateTimePicker dtpFechaNac;
+        private BindingSource cursoBusinessBindingSource;
+        private BindingSource cursoBindingSource;
+        private BindingSource cursoBusinessBindingSource1;
     }
 }

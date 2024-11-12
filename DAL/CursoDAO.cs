@@ -21,7 +21,7 @@ namespace DAL
                 using (SqlConnection connection = new SqlConnection(Connection.GetConnectionString()))
                 {
                     connection.Open();
-                    string query = "Select ID_CURSO, NOMBRE_CURSO from CURSO";
+                    string query = "SELECT ID_CURSO, NOMBRE_CURSO, PROFESOR, HORARIO FROM CURSO";
                     using (SqlCommand sqlCommand = new SqlCommand(query, connection))
                     {
                         using (SqlDataReader reader = sqlCommand.ExecuteReader())
@@ -35,6 +35,7 @@ namespace DAL
                 }
                 return cursos;
             }
+
             catch (Exception ex)
             {
                 throw;
@@ -48,7 +49,7 @@ namespace DAL
                 using (SqlConnection connection = new SqlConnection(Connection.GetConnectionString()))
                 {
                     connection.Open();
-                    string query = "Select ID_CURSO, NOMBRE_CURSO from CURSO where ID_CURSO = @ID";
+                    string query = "SELECT ID_CURSO, NOMBRE_CURSO, PROFESOR, HORARIO FROM CURSO WHERE ID_CURSO = @ID";
                     using (SqlCommand sqlCommand = new SqlCommand(query, connection))
                     {
                         sqlCommand.Parameters.AddWithValue("@ID", id);
