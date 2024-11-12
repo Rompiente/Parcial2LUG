@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Parcial 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12AA348E-1B70-4387-80A7-C23524EEC875}|..\\BLL\\BLL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\parcial 2\\bll\\cursobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12AA348E-1B70-4387-80A7-C23524EEC875}|..\\BLL\\BLL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\parcial 2\\bll\\estudiantebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503714F-7D0D-4B6B-A315-DE4D04539CB7}|..\\DAL\\DAL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\parcial 2\\dal\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503714F-7D0D-4B6B-A315-DE4D04539CB7}|..\\DAL\\DAL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\parcial 2\\dal\\cursodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503714F-7D0D-4B6B-A315-DE4D04539CB7}|..\\DAL\\DAL.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\parcial 2\\dal\\estudiantedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80990A63-9C6C-4FF0-B779-2F4551D9E42F}|..\\Entity\\Entity.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\parcial 2\\entity\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80990A63-9C6C-4FF0-B779-2F4551D9E42F}|..\\Entity\\Entity.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\parcial 2\\entity\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E48508C-8D36-4465-A88A-ED3737644036}|Parcial 2.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\parcial 2\\parcial 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E48508C-8D36-4465-A88A-ED3737644036}|Parcial 2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E48508C-8D36-4465-A88A-ED3737644036}|Parcial 2.csproj|C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Parcial 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E48508C-8D36-4465-A88A-ED3737644036}|Parcial 2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E48508C-8D36-4465-A88A-ED3737644036}|Parcial 2.csproj|C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Parcial 2\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{7E48508C-8D36-4465-A88A-ED3737644036}|Parcial 2.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E48508C-8D36-4465-A88A-ED3737644036}|Parcial 2.csproj|c:\\users\\rompiente\\documents\\mega\\uai\\analista prog\\2do a\u00F1o\\lug\\parcial 2\\parcial 2\\parcial 2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7E48508C-8D36-4465-A88A-ED3737644036}|Parcial 2.csproj|solutionrelative:parcial 2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Parcial 2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Parcial 2\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T03:06:34.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CursoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\DAL\\CursoDAO.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\CursoDAO.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\DAL\\CursoDAO.cs",
+              "RelativeToolTip": "..\\DAL\\CursoDAO.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T02:18:22.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Entity\\Curso.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\Curso.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Entity\\Curso.cs",
+              "RelativeToolTip": "..\\Entity\\Curso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:56:29.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CursoBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\BLL\\CursoBusiness.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\CursoBusiness.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\BLL\\CursoBusiness.cs",
+              "RelativeToolTip": "..\\BLL\\CursoBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T02:17:38.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Parcial 2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Parcial 2\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:33:21.569Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EstudianteBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\BLL\\EstudianteBusiness.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\EstudianteBusiness.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\BLL\\EstudianteBusiness.cs",
+              "RelativeToolTip": "..\\BLL\\EstudianteBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T02:16:54.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EstudianteDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\DAL\\EstudianteDAO.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\EstudianteDAO.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\DAL\\EstudianteDAO.cs",
+              "RelativeToolTip": "..\\DAL\\EstudianteDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T02:18:12.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\DAL\\Connection.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Connection.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\DAL\\Connection.cs",
+              "RelativeToolTip": "..\\DAL\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T02:08:49.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Entity\\Estudiante.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Entity\\Estudiante.cs",
+              "RelativeToolTip": "..\\Entity\\Estudiante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T02:00:25.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Parcial 2\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Parcial 2\\Properties\\Settings.settings",
+              "RelativeToolTip": "Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-11-12T01:50:53.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Parcial 2",
+              "DocumentMoniker": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Parcial 2\\Parcial 2.csproj",
+              "RelativeDocumentMoniker": "Parcial 2.csproj",
+              "ToolTip": "C:\\Users\\Rompiente\\Documents\\MEGA\\UAI\\Analista Prog\\2do a\u00F1o\\LUG\\Parcial 2\\Parcial 2\\Parcial 2.csproj",
+              "RelativeToolTip": "Parcial 2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-12T01:50:41.509Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
